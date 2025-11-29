@@ -77,7 +77,7 @@ b) In the future, I might use:
 ---
 
 #### Question 3: Commit Messages and History
-a) The message **“Add hw3a solution documenting Git workflow and repository structure”** is much more useful than just **“update”**,  
+a) The message **“Add hw3a solution documenting Git workflow and repository structure”** is more useful than just **“update”**,  
 because it clearly describes what changed and why.  
 That helps me find the right commit later using `git log`.
 
@@ -96,14 +96,14 @@ b) I would commit:
 - Wait to commit the **half-finished analysis function** until it is working.  
 Staging lets me separate complete and incomplete work.
 
-c) `git status` shows what’s modified, staged, or untracked.  
-I use it before every `add` or `commit` to make sure I’m tracking exactly what I intend to.
+c) `git status` shows what is modified, staged, or untracked.  
+I use it before every `add` or `commit` to make sure I am tracking exactly what I want to track.
 
 ---
 
 #### Question 2: Local vs. Remote Repositories
 a) Git being **distributed** means every copy (local or remote) has the full history.  
-Unlike Google Drive, you don’t rely on one central version — everyone has their own complete repo.
+Unlike Google Drive, which do not rely on one central version — everyone has their own complete repo.
 
 b) This setup lets developers work **offline**, make commits locally, and sync later with `git push`.  
 It supports flexible, independent workflows.
